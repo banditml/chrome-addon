@@ -17,6 +17,8 @@ steps:
       client-id: ${{ secrets.CHROME_CLIENT_ID }}
       client-secret: ${{ secrets.CHROME_CLIENT_SECRET }}
       refresh-token: ${{ secrets.CHROME_REFRESH_TOKEN }}
+      # optionally specify the visibility of the addon
+      # publishTarget: default
 ```
 
 ## Google Credentials
