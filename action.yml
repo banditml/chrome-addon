@@ -9,8 +9,10 @@ inputs:
   client-id:
     description: 'Google OAuth2 client id'
   client-secret:
+    required: false
     description: 'Google OAuth2 client secret'
   refresh-token:
+    required: false
     description: 'Google OAuth2 refresh token'
   publishTarget:
     required: false
